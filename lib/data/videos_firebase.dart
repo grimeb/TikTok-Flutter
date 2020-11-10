@@ -14,7 +14,8 @@ class VideosAPI {
   }
 
   Future<List<Video>> getVideoList() async {
-    var data = await FirebaseFirestore.instance.collection("Videos").get();
+    var data =
+        await FirebaseFirestore.instance.collection("Videos").get(GetOptions());
 
     var videoList = <Video>[];
     var videos;

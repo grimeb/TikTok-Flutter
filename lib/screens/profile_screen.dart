@@ -20,7 +20,7 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   Icon(Icons.person_add_alt_1_outlined),
                   Text(
-                    "Salvador Valverde",
+                    "Vincent DeHart",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                   Icon(Icons.more_horiz)
@@ -40,7 +40,7 @@ class ProfileScreen extends StatelessWidget {
                         child: CachedNetworkImage(
                           fit: BoxFit.cover,
                           imageUrl:
-                              "https://q5n8c8q9.rocketcdn.me/wp-content/uploads/2018/08/The-20-Best-Royalty-Free-Music-Sites-in-2018.png",
+                              "https://cdn.shopify.com/s/files/1/0030/3802/products/2016-04-08_14-49-46_grande.png?v=1464413011",
                           height: 100.0,
                           width: 100.0,
                           placeholder: (context, url) =>
@@ -55,7 +55,7 @@ class ProfileScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Text(
-                    "@salvadordev",
+                    "@vdehart",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
@@ -67,7 +67,7 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            "36",
+                            "178",
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -90,7 +90,7 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            "13",
+                            "713 k",
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -113,7 +113,7 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            "143",
+                            "411",
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -234,7 +234,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/Ii4Cv63yG9iYawDtKC/giphy.gif",
+                                  "https://media.tenor.com/images/fa3eecd7751f427a047a56d54d7e87e2/tenor.gif",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -257,7 +257,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/tqfS3mgQU28ko/giphy.gif",
+                                  "https://www.reactiongifs.com/r/2013/10/tim-and-eric-mind-blown.gif",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),
@@ -280,7 +280,7 @@ class ProfileScreen extends StatelessWidget {
                             child: CachedNetworkImage(
                               fit: BoxFit.fill,
                               imageUrl:
-                                  "https://media.giphy.com/media/3o72EX5QZ9N9d51dqo/giphy.gif",
+                                  "https://media.tenor.com/images/53d5c8684a1d3fc9e4e0316f7fa0722c/tenor.gif",
                               placeholder: (context, url) => Padding(
                                 padding: const EdgeInsets.all(35.0),
                                 child: CircularProgressIndicator(),

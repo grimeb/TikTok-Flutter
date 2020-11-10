@@ -85,7 +85,7 @@ class _FeedScreenState extends State<FeedScreen> {
                     children: [
                       Icon(Icons.arrow_back_ios),
                       Text(
-                        "Charlotte Stone",
+                        "Mad Lad",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
                       ),
@@ -104,7 +104,7 @@ class _FeedScreenState extends State<FeedScreen> {
                         ClipOval(
                           child: CachedNetworkImage(
                             imageUrl:
-                                "https://www.andersonsobelcosmetic.com/wp-content/uploads/2018/09/chin-implant-vs-fillers-best-for-improving-profile-bellevue-washington-chin-surgery.jpg",
+                                "https://media.tenor.com/images/e43077f55da88f99daa21c33ec814836/tenor.gif",
                             height: 100.0,
                             width: 100.0,
                             placeholder: (context, url) =>
@@ -119,7 +119,7 @@ class _FeedScreenState extends State<FeedScreen> {
                       height: 10,
                     ),
                     Text(
-                      "@Charlotte21",
+                      "@FeelsBadMan",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
@@ -295,7 +295,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/tOueglJrk5rS8/giphy.gif",
+                                    "https://media1.tenor.com/images/8e9ddd01fdde42478bfddf759ea14b2d/tenor.gif?itemid=15187791",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -318,7 +318,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/665IPY24jyWFa/giphy.gif",
+                                    "https://cdn.lowgif.com/full/1e32d87836d7c940-.gif",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -341,7 +341,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/chjX2ypYJKkr6/giphy.gif",
+                                    "https://64.media.tumblr.com/a8833783f141eb89789c84c90d414e91/tumblr_nns8mopbvr1tqe2i0o1_r1_400.gifv",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -368,7 +368,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/sC60eX0OVIH7O/giphy.gif",
+                                    "https://c0.klipartz.com/pngpicture/552/807/gratis-png-ilustracion-de-rana-pepe-gif-imgur-tenor-conoce-tu-meme-emotes-de-contraccion.png",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -391,7 +391,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/NsXhybxnMKsh2/giphy.gif",
+                                    "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/225063/225063-1539725008020-805a9dc58d5fd.jpg",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -414,7 +414,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               child: CachedNetworkImage(
                                 fit: BoxFit.fill,
                                 imageUrl:
-                                    "https://media.giphy.com/media/HE6hyf47yAX1S/giphy.gif",
+                                    "https://media.tenor.com/images/63d618d47777e50dcb20cf23792c4189/tenor.gif",
                                 placeholder: (context, url) => Padding(
                                   padding: const EdgeInsets.all(35.0),
                                   child: CircularProgressIndicator(),
@@ -538,7 +538,7 @@ class _FeedScreenState extends State<FeedScreen> {
             : Container(
                 color: Colors.black,
                 child: Center(
-                  child: Text("Loadingd123"),
+                  child: Text("Loading123"),
                 ),
               ),
         Column(
@@ -550,7 +550,7 @@ class _FeedScreenState extends State<FeedScreen> {
               children: <Widget>[
                 VideoDescription(video.user, video.videoTitle, video.songName),
                 ActionsToolbar(video.likes, video.comments,
-                    "https://www.andersonsobelcosmetic.com/wp-content/uploads/2018/09/chin-implant-vs-fillers-best-for-improving-profile-bellevue-washington-chin-surgery.jpg"),
+                    "https://media.tenor.com/images/e43077f55da88f99daa21c33ec814836/tenor.gif"),
               ],
             ),
             SizedBox(height: 20)

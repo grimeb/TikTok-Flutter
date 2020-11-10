@@ -7,7 +7,7 @@ class ActionsToolbar extends StatelessWidget {
   // Full dimensions of an action
   static const double ActionWidgetSize = 60.0;
 
-// The size of the icon showen for Social Actions
+// The size of the icon shown for Social Actions
   static const double ActionIconSize = 35.0;
 
 // The size of the share social icon

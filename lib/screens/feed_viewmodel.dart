@@ -23,7 +23,7 @@ class FeedViewModel extends BaseViewModel {
     videoSource.listVideos[index].controller.play();
     videoSource.listVideos[prevVideo].controller.removeListener(() {});
 
-    //videoSource.listVideos[prevVideo].controller.dispose();
+    videoSource.listVideos[prevVideo].controller.dispose();
 
     prevVideo = index;
     notifyListeners();
@@ -33,7 +33,7 @@ class FeedViewModel extends BaseViewModel {
 
   void loadVideo(int index) async {
     await videoSource.listVideos[index].loadController();
-    //videoSource.listVideos[index].controller.play();
+    videoSource.listVideos[index].controller.play();
     notifyListeners();
   }
 
