@@ -15,7 +15,16 @@ class FeedViewModel extends BaseViewModel {
     videoSource = VideosAPI();
   }
 
+  void loadVideo(int index) async {
+    await videoSource.listVideos[index].loadController();
+    // videoSource.listVideos[index].controller.play();
+    notifyListeners();
+  }
+
   changeVideo(index) async {
+    if (prevVideo == null) {
+      await videoSource.listVideos[index].loadController();
+    }
     videoSource.listVideos[prevVideo].controller.pause();
     if (videoSource.listVideos[index].controller == null) {
       await videoSource.listVideos[index].loadController();
@@ -23,18 +32,12 @@ class FeedViewModel extends BaseViewModel {
     videoSource.listVideos[index].controller.play();
     videoSource.listVideos[prevVideo].controller.removeListener(() {});
 
-    videoSource.listVideos[prevVideo].controller.dispose();
+    // videoSource.listVideos[prevVideo].controller.dispose();
 
     prevVideo = index;
     notifyListeners();
 
     print(index);
-  }
-
-  void loadVideo(int index) async {
-    await videoSource.listVideos[index].loadController();
-    videoSource.listVideos[index].controller.play();
-    notifyListeners();
   }
 
   void setActualScreen(index) {
